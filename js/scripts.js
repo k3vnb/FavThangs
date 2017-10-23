@@ -10,9 +10,14 @@ $(function() {
     var lastName = $("input#last").val();
     var answers = ["q1", "q2", "q3", "q4"];
 
-    answers.forEach(function(answer) {
-      var userInput = $("input#" + answer).val();
-      $("." + answer).text(userInput);
+    var newAnswers = [];
+    newAnswers.push(answers[0], answers[1], answers[2]);
+      alert(newAnswers);
+
+
+    newAnswers.forEach(function(newAnswer) {
+      var userInput = $("input#" + newAnswer).val();
+      $("." + newAnswer).text(userInput);
     });
 
 
