@@ -26,11 +26,11 @@
           <div class="row">
             <div class="col">
               <label for="first">First Name</label>
-              <input type="text" class="form-control" placeholder="First name">
+              <input id="first" type="text" class="form-control" placeholder="First name">
             </div>
             <div class="col">
               <label for="last">Last Name</label>
-              <input type="text" class="form-control" placeholder="Last name">
+              <input id="last" type="text" class="form-control" placeholder="Last name">
             </div>
           </div>
           <br>
@@ -52,6 +52,22 @@
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
+      </div>
+      <div class="reveal">
+        <div class="card">
+          <div class="card-header">
+            WooHoo!
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">Congrats <span id="firstname"></span>  <span id="lastname"></span>!</h4>
+            <p class="card-text">See your answers below:</p>
+            <ol>
+              <li> You've won a <span class="q1"></span> Miata</li>
+              <li> and tickets to see <span class="q2"></span> with <span class="q3"></span></li>
+              <li> Sorry, no trip to <span class="q4"></span> this time.</li>
+            </ol>
+          </div>
+        </div>
       </div>
     </div>
   </body>
