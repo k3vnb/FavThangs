@@ -1,3 +1,7 @@
-/*.survey {
+.survey {
   display: none;
-}*/
+}
+
+.reveal {
+  display: none;
+}
