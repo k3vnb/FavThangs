@@ -4,13 +4,55 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/master.css">
-    <script src="js/jquery-3.2.1.js">      
+    <script src="js/jquery-3.2.1.js">
     </script>
     <script src="js/scripts.js">
     </script>
     <title>Favorite Things Survey</title>
   </head>
   <body>
-
+    <div class="container">
+      <div class="jumbotron">
+      <h1 class="display-3">Hello!</h1>
+      <p class="lead">Fill in the survey below, and be entered to win <strong>BIG.</strong></p>
+      <hr class="my-4">
+      <p>Good Luck!</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Take Survey</a>
+      </p>
+      </div>
+      <div class="survey">
+        <form>
+          <div class="row">
+            <div class="col">
+              <label for="first">First Name</label>
+              <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col">
+              <label for="last">Last Name</label>
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="q1">What is your favorite color?</label>
+            <input type="text" class="form-control" id="q1" placeholder="Enter favorite color">
+          </div>
+          <div class="form-group">
+            <label for="q2">What is your favorite sport?</label>
+            <input type="text" class="form-control" id="q2" placeholder="Enter favorite sport">
+          </div>
+          <div class="form-group">
+            <label for="q3">Who is your favorite singer?</label>
+            <input type="text" class="form-control" id="q3" placeholder="Enter favorite singer">
+          </div>
+          <div class="form-group">
+            <label for="q4">What is your favorite vacation spot?</label>
+            <input type="text" class="form-control" id="q4" placeholder="Enter favorite vacation spot">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
